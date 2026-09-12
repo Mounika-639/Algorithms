@@ -1,0 +1,12 @@
+step-1: start
+step-2: print "Up to which number you want to print natural numbers? "
+step-3: read NaturalNumber
+step-4: Count=1
+step-5: print "The natural number up to "+ NaturalNumber + " are "
+step-6: if(count <= NaturalNumber - 1)
+          print Count + ", "
+	  Count=Count+1
+          goto step-6
+step-7: print NatutalNumber + ".\n"
+step-8: stop
+
