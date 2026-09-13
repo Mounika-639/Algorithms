@@ -1,0 +1,12 @@
+step-1: start
+step-2: print "How many multiples of 7 you want to print "
+step-3: Read Number
+step-4: print "The first "+Number + " multiples of 7 are "
+step-5: Multiple =7
+step-6: if (Multiple != Number * 7 )
+           print Multiple +", "
+           Multiple = Multiple + 7
+           goto step-6
+step-7: print Multiple + ".\n"
+step-8: stop
+
