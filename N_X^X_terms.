@@ -1,0 +1,20 @@
+step-1: start
+step-2: print "How many terms you would like to prinr in poewer series? "
+step-3: read Number
+step-4: print "The first "+ Number + " terms in power series are 1"
+step-5: Counter = 1
+step-6: Result = 1
+step-7: Iterable = 2
+step-8: if (Counter <= Iterable):
+           Result = Result * Iterable
+           Counter= Counter + 1       
+           goto step-8
+step-9: if (Iterable!=Number):
+           print ", "+Result
+           Iterable= Iterable + 1
+           Counter = 1
+           Result = 1
+           goto step-8
+step-10: print ", "+Result +".\n"
+step-11: stop
+
