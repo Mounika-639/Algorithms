@@ -1,0 +1,20 @@
+step-1: start
+step-2: print "Up to which number you want to print x^x series? "
+step-3: read Number
+step-4: print "X^X series up to "+Number+" is 1"
+step-5: Counter = 1
+step-6: Result = 1
+step-7: Iterable = 2
+step-8: if (Counter <= Iterable):
+           Result= Result * Iterable 
+           Counter = Counter +1
+           goto stp-8
+step-9: if (Result < Number):
+           print ", "+Result
+           Iterable = Iterable + 1
+           Counter = 1
+           Result = 1
+           goto step-8
+step-10: priint ".\n"
+step-11: stop
+
