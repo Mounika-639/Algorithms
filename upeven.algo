@@ -3,7 +3,7 @@ step-2: print "Up to which number you want to print even numbers?
 step-3: read Number
 Step=4: EvenCounter = 0;
 step-5: print "The even numbers up to "+ Number +" are "
-step-6: if (EvenCounter <Number -1)
+step-6: if (EvenCounter < Number -1)
            print EvenCounter + ", "
            EvenCounter  = EvenCounter +2
            goto step-6
