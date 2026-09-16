@@ -5,11 +5,11 @@ step-4: read Sum
 step-5: print "Enter their product: "
 step-6: read Product
 step-7: print "The sum of two numbers is "+Sum +" and their product is " + Product + ". "
-step-8: FirstNumber=1
+step-8: FirstNumber = 1
 step-9: SecondNumber = Product/FirstNumber
 step-10: if (FirstNumber + SecondNumber != Sum)
              FirstNumber = FirstNumber+1
-             goto step -9
+             goto step-9
 step-11: print "The two numbers are "+ FirstNumber +", "+ SecondNumber +".\n"
 step-12: stop
 
