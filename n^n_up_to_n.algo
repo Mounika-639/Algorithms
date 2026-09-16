@@ -4,10 +4,10 @@ step-3: read Number
 step-4: print "The square series up to " + Number + " is 1"
 step-5: Counter = 2
 step-6: Square = Counter * Counter
-step-7: if (Square <=  Number )
-           print ", " + Square
-           Counter = Counter + 1
-           goto step-6
+step-7: if(Square <=  Number )
+          print ", " + Square
+          Counter = Counter + 1
+          goto step-6
 step-9: print ".\n"
 step-10: stop
 
