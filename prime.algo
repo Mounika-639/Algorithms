@@ -8,7 +8,7 @@ step-6: Remainder = Number / Counter
 step-7: if (Remainder = 0)
            print Number + " is not a prime number.\n"
            goto step-10
-step-8: if (Counter <= sqrt.Number):
+step-8: if (Counter <= sqrt(Number)):
            Counter= Counter +1
            goto step-6
 step-9: print Number + " is a prime number.\n "
