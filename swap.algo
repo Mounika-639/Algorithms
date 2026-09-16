@@ -1,0 +1,15 @@
+step-1: start
+step-2: print "To campare two numbers\n"
+step-3: print "Enter the first number: "
+step-4: read Num1
+step-5: print "Enter the second number: "
+step-6: read Num2
+step-7: if (Num1>Num2)
+           goto step-9
+step-8: if (Num2>Num1)
+           temp = Num1
+           Num1 = Num2
+           Num2 = Temp
+step-9: print Num1 + " is bigger than "+ Num2 + ".\n"
+step-10: stop
+

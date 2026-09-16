@@ -1,0 +1,16 @@
+step-1: start
+step-2: print "Finding the maximum among the given ten mumbers.\n"
+step-3: print "Enter the first number: "
+step-4: read Num1
+step-5: Max = Num1
+step-6: Counter = 1
+step-7: if (Counter != 10):
+           print "Enter the next number: "
+           read Num2
+           if (Num2 > Max):
+              Max = Num2
+           counter = Counter + 1
+           goto step-7
+step-8: print "Maximium of 10 numbers is "+ Max + ".\n"
+step-9: stop
+  

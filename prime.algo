@@ -1,0 +1,15 @@
+step-1: start
+step-2: "Enter a number to check whether it is a prime or not? "
+step-3: read Number 
+step-4: if (Number = 2)
+           print "2 is a prime number.\n"
+step-5: Counter = 2
+step-6: Remainder = Number / Counter
+step-7: if (Remainder = 0)
+           print Number + " is not a prime number.\n"
+           goto step-10
+step-8: if (Counter <= sqrt.Number):
+           Counter= Counter +1
+           goto step-6
+step-9: print Number + " is a prime number.\n "
+step-10: stop

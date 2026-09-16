@@ -1,0 +1,12 @@
+step-1: start
+step-2: print "How many terms iin square series you want to print? "
+step-3: read Number
+step-4: print "The first "+Number + " terms in square series are 1"
+step-5: Counter = 2
+step-6: Square = Counter * Counter
+step-7: if (square < (Number * Number ))
+           print ", "+ Square
+           Counter = Counter + 1
+           goto step-6
+step-8:  print ", "+square+".\n"
+step-9: stop 
