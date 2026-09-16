@@ -5,9 +5,9 @@ step-4: print "The nth power value of "+ Number + " is "
 step-5: Counter = 1
 step-6: Result = 1
 step-7: if(Counter <= Number ):
-          Result =Result * Number
+          Result = Result * Number
           Counter = Counter + 1
-          goto step- 7
+          goto step-7
 step-8: print Result + ".\n"
 step-9: stop
 
