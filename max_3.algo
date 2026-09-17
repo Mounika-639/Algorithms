@@ -6,12 +6,12 @@ step-5: print "Enter the second number: "
 step-6: read Num2
 step-7: print "Enter the third number: "
 step-8: read Num3
-step-9: print Maximum of "+ Num1+ ", "+Num2+" and "+num3 +" is "
+step-9: print Maximum of "+ Num1 + ", "+ Num2 + " and " + num3 +" is "
 step-10: Max = Num1
 step-11: if (Num2 > Max):
-            Max = Num2
+           Max = Num2
 step-12: if (Num3 > Max): 
-            Max = Num3
+           Max = Num3
 step-13: print Max +".\n"
 step-14: stop
 
