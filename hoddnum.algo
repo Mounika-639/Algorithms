@@ -1,13 +1,13 @@
 step-1: start
 step-2: print "How many odd numbers you want to print? "
 step-3: read Number
-step-4: OddCounter=1
+step-4: OddCounter = 1
 step-5: Print "The odd numbers up to "+ Number + " are "
 step-6: LastOddNumber = (2 * Number)-1
-step-7: if (OddCounter <LastOddNumber -1)
-           print OddCounter+", "
-           OddCounter = OddCounter + 2
-           goto step-7
-step-8: print OddCounter +".\n"
+step-7: if (OddCounter <LastOddNumber -1):
+          print OddCounter+", "
+          OddCounter = OddCounter + 2
+          goto step-7
+step-8: print OddCounter + ".\n"
 step-9: stop
 
