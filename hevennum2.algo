@@ -3,10 +3,10 @@ step-2: print "How many even numbers you want to print ? "
 step-3: read Number
 step-4: print "The even numbers up to "+ Number + " are "
 step-5: Counter = 0
-step-6: if (Counter!= Number-1)
-           print (2 * counter) + ", "
-           Counter = Counter + 1
-           goto step-6
-step-7: print (2* counter)+ ".\n"
+step-6: if (Counter!= Number-1):
+          print (2 * Counter) + ", "
+          Counter = Counter + 1
+          goto step-6
+step-7: print (2* Counter) + ".\n"
 step-8: stop
 
